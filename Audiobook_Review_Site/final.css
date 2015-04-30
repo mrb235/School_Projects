@@ -1,0 +1,175 @@
+.hide {
+  display: none;
+}
+
+.side_element {
+  cursor: pointer;
+}
+#side_divs {
+  float:left;
+}
+#main_audiobook {
+  position:absolute;
+  left:250px;
+  top:100px;
+}
+#side_column {
+  float:left;
+  clear:left;
+  padding-right: 50px;
+}
+#title{
+  float:left;
+}
+#login_form_area {
+  float:left;
+  width:220px;
+}
+#newAudiobook {
+  float:left;
+  clear:left;
+}
+
+.side_element {
+  margin-bottom:5px;
+  display:inline-block;
+  min-width: 200px;
+  width:220px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+  box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #e4685d));
+  background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+  background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+  background:-o-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+  background:-ms-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+  background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+  background-color:#fc8d83;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #d83526;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+  }
+  .side_element:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
+  background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+  background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+  background:-o-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+  background:-ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+  background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
+  background-color:#e4685d;
+  }
+  .side_element:active {
+  position:relative;
+  top:1px;
+  }
+#newAudiobook label , #userForm label{
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+
+}
+.new_audiobook_text, #enter_username, #enter_password {
+  font-family:arial;
+  font-size:15px;
+  background-color:#C28181;
+  border: 3px ridge #FFA5A5; 
+  outline:0; 
+  height:20px; 
+  width: 200px;
+}
+#enter_username, #enter_password {
+  font-weight:bold;
+}
+
+.submit_button {
+  margin-top:15px;
+}
+
+#title {
+  -webkit-user-select: none;  
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  cursor:default;
+  position:absolute;
+  left:260px;
+  font-weight:bold;
+  font-family:arial;
+  font-size:60px;
+  color:#F71919;
+  white-space:nowrap;
+}
+#main_audiobook {
+  font-weight:bold;
+  font-family:arial;
+}
+#book_title {
+  font-size: 25px;
+}
+#book_date_published, #book_ISBN, #book_length, #book_description {
+  font-size:14px;
+}
+
+.submit_button, #username_form, #addAudiobookButton, #logout, #add_review{
+  margin-bottom:5px;
+  -moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+  box-shadow:inset 0px 1px 0px 0px #f29c93;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100));
+  background:-moz-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+  background:-webkit-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+  background:-o-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+  background:-ms-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+  background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100',GradientType=0);
+  background-color:#fe1a00;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #d83526;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+}
+.submit_button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00));
+  background:-moz-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+  background:-webkit-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+  background:-o-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+  background:-ms-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+  background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00',GradientType=0);
+  background-color:#ce0100;
+ }
+.submit_button:active {
+  position:relative;
+  top:1px;
+  }
+#review_title {
+  font-size:25px;
+}
+.review_div {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.review {
+  font-size:13px;
+}
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>final project testing</title>
+    <script src="final.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="final.css">
+
+  </head>
+  <body>
+    <div id="side_divs">
+      <div id="login_form_area">
+        <form class="not_logged_in" id="userForm">
+          <label>Username</label>
+          <input type="text" id="enter_username" name="enter_username">
+          <div class="notification" id="username_error"></div>
+          <br>
+          <label>Password</label>
+          <input type="password" id="enter_password" name="enter_username">
+          <div class="notification" id="password_error"></div>
+          <br>
+          <input type="button" value="Log In" id="username_form">
+        </form>
+        <a class="not_logged_in" id="create_user_link" href="create_user.html">Create user</a> <br/>
+        <form class="logged_in hide" id="user_options">
+          <input type="button" value="Add New Audiobook" id="addAudiobookButton">
+          <br>
+          <input type="button" value="Log Out" id="logout">
+        </form>
+      </div>
+      <form class="hide" id="newAudiobook">
+        <label>Title</label>
+        <br>
+        <input class="new_audiobook_text" type="text" id="enter_title" name="enter_title">
+        <br>
+        <label>Author</label>
+        <br>
+        <input class="new_audiobook_text" type="text" id="enter_author" name="enter_author">
+        <br>
+        <label>Narrator</label>
+        <br>
+        <input class="new_audiobook_text" type="text" id="enter_narrator" name="enter_narrator">
+        <br>
+        <label>ISBN</label>
+        <br>
+        <input class="new_audiobook_text" type="text" id="enter_ISBN" name="enter_ISBN">
+        <br>
+        <label>Length: Hours</label>
+        <br>
+        <input class="new_audiobook_text" type="number" id="enter_length_hr" name="enter_length">
+        <br>
+        <label>Length: Minutes</label>
+        <br>
+        <input class="new_audiobook_text" type="number" id="enter_length_min" name="enter_length">
+        <br>
+        <label>Date Published</label>
+        <br>
+        <input class="new_audiobook_text" type="date" id="enter_date" name="enter_date">
+        <br>
+        <label>Short Description</label>
+        <br>
+        <input class="new_audiobook_text" type="text" id="enter_description" name="enter_description">
+        <br>
+        <input class="submit_button" type="button" id="submit_new_book" value="Submit Audiobook">
+      </form>
+      <br>
+      <div class="notification" id="output_div"></div>
+      <div id="side_column"></div>
+    </div>
+    <div id="title">Audiobook Reviews</div>
+    <div id="main_audiobook"></div>
+  </body>
+</html>
